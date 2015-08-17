@@ -31,25 +31,26 @@ The sample solution contains the following files:
 
 The sample plug-in contains the ChangeContentWithXML project, which contains:
 
-- The WChangeContentWithXML.xml manifest file.
+- The ChangeContentWithXML.xml manifest file.
 - The ComplexDoc.docx document, which is prepopulated with various images, tables, and formatted textual content.
 
-It also contains the ChangeContentWithXMLWeb project, which include:
+It also contains the ChangeContentWithXMLWeb project, which includes:
 
-- Home.html. This contains the HTML user interface that is displayed in the task pane. It consists of two HTML buttons that extract and insert Open XML, a DIV where status messages will be written, and a textarea HTML control that is used to show you Open XML fragments.
-- Home.js (in the Scripts folder). This script file contains code that runs when the plug-in is loaded. This startup wires up the Click event handlers for the two buttons in WD_OpenXML_js.html. One of these buttons retrieves the selected area of the document as Open XML, and the other button inserts Open XML into the document.
+- Home.html. This contains the HTML user interface that is displayed in the task pane. It consists of two HTML buttons that extract and insert Open XML, a DIV where status messages will be written, and a **textarea** HTML control that is used to show you Open XML fragments.
+- Home.js (in the Scripts folder). This script file contains code that runs when the plug-in is loaded. This startup wires up the Click event handlers for the two buttons in ChangeContentWithXML.html. One of these buttons retrieves the selected area of the document as Open XML, and the other button inserts Open XML into the document.
 
 <a name="build"></a>
 ## Build and debug ##
-To configure the sample, open the ChangeContentWithXML.sln file with Visual Studio 2012. No other configuration is necessary.
-To build the sample, choose the Ctrl+Shift+B keys.
-To run the plug-in, choose the F5 key.
+
+1. Open the ChangeContentWithXML.sln file with Visual Studio. No other configuration is necessary.
+2. To build the sample, choose the Ctrl+Shift+B keys.
+3. To run the plug-in, choose the F5 key.
 
 **Note** It is recommended that you select all the content between the two instructions as shown the first time you run the sample, so that you can see the full power of Open XML. You can experiment with selecting smaller sections after that.
 
 <a name="troubleshooting"></a>
 ##Troubleshooting
-If the plug-in starts with a blank document instead of the one shown in Figure 1, ensure the StartAction property of the ChangeContentWithXML project is set to ComplexDoc.docx and not just to Word.
+If the plug-in starts with a blank document instead of the one shown in Figure 1, ensure the **StartAction** property of the project is set to ComplexDoc.docx and not just to Word.
 
 <a name="questions"></a>
 ##Questions and comments##
