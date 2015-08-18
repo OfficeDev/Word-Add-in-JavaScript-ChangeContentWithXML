@@ -56,7 +56,7 @@ It also contains the ChangeContentWithXMLWeb project, which includes:
 ##Troubleshooting
 If the add-in starts with a blank document instead of the test document, ensure the **Start Document** property of the project is set to ComplexDoc.docx and not just to [New Word document].
 
-To do this, select the ChangeContentWithXML project in the Solution Explorer and view the properties in the Properties window. Under App you will see Start Action and Start Document listed.  The values for these should be:
+To do this, select the **ChangeContentWithXML** project in the Solution Explorer and view the properties in the Properties window. Under App you will see Start Action and Start Document listed.  The values for these should be:
 
 - Start Action: Office Desktop Client
 - Start Document: ComplexDoc.docx
