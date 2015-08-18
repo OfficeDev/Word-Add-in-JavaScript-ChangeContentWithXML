@@ -21,9 +21,11 @@ The sample shows how to use JavaScript to extract Open XML from a potentially co
 
 This sample requires:
 
-- Visual Studio 2012 or later
-- Office 2013 tools for Visual Studio 2012 or later.
-- Word 2013.
+- Visual Studio 2013 with Update 5 or Visual Studio 2015.
+- Word 2013
+- Internet Explorer 9 or later, which must be installed but doesn't have to be the default browser. To support Office Add-ins, the Office client that acts as host uses browser components that are part of Internet Explorer 9 or later.
+- One of the following as the default browser: Internet Explorer 9, Safari 5.0.6, Firefox 5, Chrome 13, or a later version of one of these browsers.
+- Familiarity with JavaScript programming and web services.
 
 <a name="components"></a>
 ## Key components of the sample
@@ -50,7 +52,11 @@ It also contains the ChangeContentWithXMLWeb project, which includes:
 
 <a name="troubleshooting"></a>
 ##Troubleshooting
-If the add-in starts with a blank document instead of the one shown in Figure 1, ensure the **StartAction** property of the project is set to ComplexDoc.docx and not just to Word.
+If the add-in starts with a blank document instead of the test document, ensure the **Start Document** property of the project is set to ComplexDoc.docx and not just to [New Word document].
+To do this, Select the ChangeContentWithXML project in the Solution Explorer, and view the properties in the Properties window. Under App you will see Start Action and Start Document listed.  The values for these should be:
+
+- Start Action: Office Desktop Client
+- Start Document: ComplexDoc.docx
 
 <a name="questions"></a>
 ##Questions and comments##
