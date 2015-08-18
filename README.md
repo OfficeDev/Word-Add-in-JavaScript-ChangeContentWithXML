@@ -12,7 +12,9 @@
 
 <a name="summary"></a>
 ##Summary
-The sample shows how to use JavaScript to extract Open XML from a potentially complex document. The sample also shows how to insert a fragment of Open XML into a document. The sample comes with a test document ComplexDoc.docx, which is set as the StartAction property of the task pane add-in. The document contains a mixture of images with various layout options and text. Make sure the document loads when you start debugging, and if not, check the StartAction property of the project.
+The sample Word Add-in shows how to use JavaScript to extract Open XML from a potentially complex document. The sample also shows how to insert a selected fragment of Open XML into a document.
+
+The sample comes with a test document ComplexDoc.docx, which is set as the StartAction property of the task pane add-in. The document contains a mixture of images with various layout options and text. Make sure the document loads when you start debugging, and if not, check the StartAction property of the project.
 
 **Note** The sample uses Open XML instead of HTML or plain text, because only Open XML is capable of handling the Base64 data that represents the images in the document. Also, Open XML is potentially more powerful at describing text flows with images.
 
@@ -53,7 +55,8 @@ It also contains the ChangeContentWithXMLWeb project, which includes:
 <a name="troubleshooting"></a>
 ##Troubleshooting
 If the add-in starts with a blank document instead of the test document, ensure the **Start Document** property of the project is set to ComplexDoc.docx and not just to [New Word document].
-To do this, Select the ChangeContentWithXML project in the Solution Explorer, and view the properties in the Properties window. Under App you will see Start Action and Start Document listed.  The values for these should be:
+
+To do this, select the ChangeContentWithXML project in the Solution Explorer and view the properties in the Properties window. Under App you will see Start Action and Start Document listed.  The values for these should be:
 
 - Start Action: Office Desktop Client
 - Start Document: ComplexDoc.docx
