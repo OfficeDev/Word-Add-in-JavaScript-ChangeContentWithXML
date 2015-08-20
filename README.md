@@ -71,6 +71,7 @@ To do this, select the **ChangeContentWithXML** project in the Solution Explorer
 <a name="additional-resources"></a>
 ## Additional resources ##
 
+- [More Add-in samples](https://github.com/OfficeDev?utf8=%E2%9C%93&query=-Add-in)
 - [Build add-ins for Office](http://msdn.microsoft.com/library/office/jj220060.aspx)
 - [Open XML SDK 2.5 CTP for Office](http://msdn.microsoft.com/library/office/bb448854.aspx)
 
