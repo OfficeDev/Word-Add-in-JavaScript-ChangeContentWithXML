@@ -49,6 +49,7 @@ It also contains the ChangeContentWithXMLWeb project, which includes:
 1. Open the ChangeContentWithXML.sln file with Visual Studio. No other configuration is necessary.
 2. To build the sample, choose the Ctrl+Shift+B keys.
 3. To run the add-in, choose the F5 key.
+4. On the **Home** tab, click the **Open** button in the **XML Content** group.
 
 **Note** It is recommended that you select all the content between the two instructions as shown the first time you run the sample, so that you can see the full power of Open XML. You can experiment with selecting smaller sections after that.
 
