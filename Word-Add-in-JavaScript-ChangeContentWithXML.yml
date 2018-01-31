@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: 'Word add-in: JavaScript-ChangeContentWithXML'
+  path: ''
+  description: The sample Word Add-in shows how to use JavaScript to extract Open XML from a potentially complex document. The sample also shows how to insert a selected fragment of Open XML into a document.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-ins
+  azureDeploy: ''
+  author: jamescro
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Word
+    scenarios: []
