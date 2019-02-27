@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Word
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 8/12/2015 4:19:58 PM
+---
 # Word-Add-in-JavaScript-ChangeContentWithXML
 
 **Table of contents**
